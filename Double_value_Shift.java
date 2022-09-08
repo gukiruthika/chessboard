@@ -9,9 +9,9 @@ public class Double_value_Shift {
 		int base=sn.nextInt();
 		int noOfTerms=sn.nextInt();
 		
-		int result = base << (noOfTerms-1);
+		//int result = base << (noOfTerms-1);
 		
-		System.out.println(result);   
+		System.out.println(base << (noOfTerms-1));   
 	}
 
 }
